@@ -19,13 +19,16 @@ int main(int argc, char *argv[]) {
 	do{
 		switch(opc){
 		case 1:
+			cout<<"\nEl resultado de la suma es: "<<num1+num2;
 			break;
 		case 2:
-			
+			cout<<"\nEl resultado de la resta es: "<<num1-num2;break;
 		case 3:
-			
+			cout<<"El resultado de la multiplicación es: "<<num1*num2;
+			break;
 		case 4:
-				
+			if(num2==0) cout<<"NO SE PUEDE DIVIDIR ENTRE 0!";
+			else cout<<"El resultado de la división es: "<<num1/num2;break
 		}
 	} while(opc!=5);
 	return 0;
