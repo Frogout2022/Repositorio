@@ -8,5 +8,9 @@ int main(int argc, char *argv[]) {
 	cout<<"3. MULTIPLICAR";
 	cout<<"4. DIVIDIR";
 	cout<<"5. SALIR";
+	
+	do{
+		
+	} while();
 	return 0;
 }
