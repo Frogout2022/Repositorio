@@ -10,9 +10,12 @@ int main(int argc, char *argv[]) {
 	cout<<"5. SALIR";
 	
 	int opc=0;
+	double num1=0,num2=0;
 	cout<<"\nIngrese opcion: ";
 	cin>>opc;
-	cin>>
+	
+	cout<<"\nIngrese 1er número: "; cin>>num1;
+	cout<<"Ingrese 2do número: "; cin>>num2;
 	do{
 		switch(opc){
 		case 1:
