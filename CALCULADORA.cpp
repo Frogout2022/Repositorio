@@ -20,8 +20,8 @@ int main(int argc, char *argv[]) {
 		cout<<"\n\nIngrese opcion: ";
 		cin>>opc;
 		
-		cout<<"\nIngrese 1er número: "; cin>>num1;
-		cout<<"Ingrese 2do número: "; cin>>num2;
+		cout<<"\nIngrese 1er nÃºmero: "; cin>>num1;
+		cout<<"Ingrese 2do nÃºmero: "; cin>>num2;
 		switch(opc){
 		case 1:
 			cout<<"\nEl resultado de la suma es: "<<num1+num2;
@@ -29,11 +29,13 @@ int main(int argc, char *argv[]) {
 		case 2:
 			cout<<"\nEl resultado de la resta es: "<<num1-num2;break;
 		case 3:
-			cout<<"El resultado de la multiplicación es: "<<num1*num2;
+			cout<<"El resultado de la multiplicaciÃ³n es: "<<num1*num2;
 			break;
 		case 4:
 			if(num2==0) cout<<"NO SE PUEDE DIVIDIR ENTRE 0!";
-			else cout<<"El resultado de la división es: "<<num1/num2;break;
+			else cout<<"El resultado de la divisiÃ³n es: "<<num1/num2;
+				cout<<"hola mundito";
+				break;
 		default: break;
 		}
 	} while(opc!=5);
